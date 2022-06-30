@@ -4,7 +4,7 @@
         "4pool": {
             "start_block": 8789783,
             "snapshot_blocks": [
-                [11422972, "pre-attack"], [13006199, "post-attack"]
+                [12113129, "snapshot"]
             ],
             "token": "0x13780E6d5696DD91454F6d3BbC2616687fEa43d0",
             "lp_token": "0x1C5ffa4FB4907B681c61B8c82b28C4672ceb1974",
@@ -16,7 +16,7 @@
         "3pool": {
             "start_block": 11866537,
             "snapshot_blocks": [
-                [14390891, "pre-attack"], [15208591, "post-attack"]
+                [14719113, "snapshot"]
             ],
             "token": "0xb599c3590F42f8F995ECfa0f85D2980B76862fc1",
             "lp_token": "0xD79138c49c49200a1Afc935171D1bDAd084FDc95",
@@ -25,7 +25,7 @@
         "4pool": {
             "start_block": 13355799,
             "snapshot_blocks": [
-                [14390891, "pre-attack"], [15208591, "post-attack"]
+                [14719113, "snapshot"]
             ],
             "token": "0xb599c3590F42f8F995ECfa0f85D2980B76862fc1",
             "lp_token": "0xcb11EE4B70d73e38a383b8691cAFb221059669cC",
@@ -34,7 +34,7 @@
         "usdc-ust": {
             "start_block": 8543762,
             "snapshot_blocks": [
-                [14390891, "pre-attack"], [15208591, "post-attack"]
+                [14719113, "snapshot"]
             ],
             "token": "0xb599c3590F42f8F995ECfa0f85D2980B76862fc1",
             "lp_token": "0x93004D8477f117eA359b71ec02f2706c8175c55c",
@@ -46,7 +46,7 @@
         "4pool": {
             "start_block": 34140651,
             "snapshot_blocks": [
-                [37766907, "pre-attack"], [39112072, "post-attack"]
+                [38280206, "snapshot"]
             ],
             "token": "0x846e4D51d7E2043C1a87E0Ab7490B93FB940357b",
             "lp_token": "0x9dc516a18775d492c9f061211C8a3FDCd476558d",
@@ -55,7 +55,7 @@
         "ust3crv": {
             "start_block": 23773838,
             "snapshot_blocks": [
-                [37766907, "pre-attack"], [39112072, "post-attack"]
+                [38280206, "snapshot"]
             ],
             "token": "0xe2D27f06F63d98b8e11b38b5b08A75D0c8dD62B9",
             "lp_token": "0x115266f936B2ea12eBb5cf5eB2D35f9c46614436",
@@ -64,7 +64,7 @@
         "ust3pool": {
             "start_block": 32485979,
             "snapshot_blocks": [
-                [37766907, "pre-attack"], [39112072, "post-attack"]
+                [38280206, "snapshot"]
             ],
             "token": "0x846e4D51d7E2043C1a87E0Ab7490B93FB940357b",
             "lp_token": "0x7c79acC9aEf46E4d55BD05d06C24E79C35183241",
@@ -76,7 +76,7 @@
         "4pool": {
             "start_block": 0,
             "snapshot_blocks": [
-                [7300341, "pre-attack"], [9059648, "post-attack"]
+                [8312482, "snapshot"]
             ],
             "token": "0xFB21B70922B9f6e3C6274BcD6CB1aa8A0fe20B80",
             "lp_token": "0x3da3153E26A230d918bb9F9428A8d60349B73379",
@@ -88,7 +88,7 @@
         "4pool": {
             "start_block": 27099517,
             "snapshot_blocks": [
-                [28036183, "pre-attack"], [28799165, "post-attack"]
+                [28340059, "snapshot"]
             ],
             "token": "0xE6469Ba6D2fD6130788E0eA9C0a0515900563b59",
             "lp_token": "0xe4ae3Ee65bb687045e401827b404FeE34BE4BA53",
@@ -97,7 +97,7 @@
         "usdcust": {
             "start_block": 22288891,
             "snapshot_blocks": [
-                [28036183, "pre-attack"], [28799165, "post-attack"]
+                [28340059, "snapshot"]
             ],
             "token": "0xE6469Ba6D2fD6130788E0eA9C0a0515900563b59",
             "lp_token": "0xaed94544941AC4bED9c61ED31fa843C85A7daaE5",

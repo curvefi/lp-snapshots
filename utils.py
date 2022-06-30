@@ -7,6 +7,7 @@ from web3.middleware import geth_poa_middleware
 
 def get_block(ts: int, endpoint: str, left: int = 0):
     """Binary search the block with timestamp >= ts"""
+    print(f"Getting block with ts={ts}")
     web3 = Web3(provider=Web3.HTTPProvider(endpoint))
     web3.middleware_onion.inject(
         geth_poa_middleware, layer=0

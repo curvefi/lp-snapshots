@@ -12,18 +12,14 @@ config = full_config[NETWORK][NAME]
 ENDPOINT = full_config[NETWORK]["endpoint"]
 
 START_BLOCK = config["start_block"]
-# pre-attack: May-07-2022 02:59:39 PM +UTC = 1651935579
-PRE_ATTACK_TS = 1651935579  # <-- CHANGE
-# post-attack: May-26-2022 04:38:08 PM +UTC = 1653583088
-POST_ATTACK_TS = 1653583088  # <-- CHANGE
+# snapshot: May-15-2022 07:49:01 AM +UTC = 1652600941
+PRE_ATTACK_TS = 1652600941  # <-- CHANGE
 
 SNAPSHOT_BLOCKS = config.get("snapshot_blocks")
 if not SNAPSHOT_BLOCKS:
     pre_block = get_block(PRE_ATTACK_TS, ENDPOINT)
-    post_block = get_block(POST_ATTACK_TS, ENDPOINT, left=pre_block)
     SNAPSHOT_BLOCKS = [
-        [pre_block, "pre-attack"],
-        [post_block, "post-attack"],
+        [pre_block, "snapshot"],
     ]
     print(f"Snapshot blocks used: {SNAPSHOT_BLOCKS}")
 
@@ -49,5 +45,5 @@ def combined_filename(name: str = None):
     return f"{NETWORK}/{name if name else NAME}/combined.csv"
 
 
-def merged_filename():
-    return f"{NETWORK}/merged.csv"
+def merged_filename(network: str = NETWORK):
+    return f"{network}/merged.csv"
